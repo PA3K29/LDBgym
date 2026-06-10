@@ -51,7 +51,7 @@ function Hero() {
     <section className="border-b border-white/10">
       <div className="py-6 sm:py-8 lg:py-10">
         <div className="overflow-hidden border-y border-white/10 bg-neutral-950">
-          <div className="relative min-h-[640px] w-full sm:min-h-[620px] lg:min-h-[720px]">
+          <div className="relative min-h-[920px] w-full sm:min-h-[820px] lg:min-h-[720px]">
             {heroImages.map((item, index) => (
               <img
                 key={item.title}
