@@ -197,8 +197,8 @@ export const contactData = {
     src: logoImage,
     alt: 'Logo LDB GYM',
   },
-  address: 'OC Avenue, Štefánikova 16, 066 01 Humenné, Slovensko',
-  venueAddress: 'OC Avenue, Štefánikova 16, 066 01 Humenné',
+  address: 'OC Avenue, Prízemie/1. podlažie, Štefánikova 6295/16, 066 01 Humenné, Slovensko',
+  venueAddress: 'LDB GYM, OC Avenue, Prízemie/1. podlažie, Štefánikova 6295/16, 066 01 Humenné',
   phone: '+421 905 912 254',
   managerPhone: '+421 918 271 277',
   email: 'ldbgym@gmail.com',
@@ -212,9 +212,9 @@ export const contactData = {
     'Nedeľa: 08:00 - 20:00',
   ],
   mapLink:
-    'https://www.google.com/maps/search/?api=1&query=OC+Avenue%2C+%C5%A0tef%C3%A1nikova+16%2C+066+01+Humenn%C3%A9',
+    'https://www.google.com/maps/search/?api=1&query=LDB+GYM%2C+OC+Avenue%2C+Pr%C3%ADzemie%2F1.+podla%C5%BEie%2C+%C5%A0tef%C3%A1nikova+6295%2F16%2C+066+01+Humenn%C3%A9',
   mapEmbedUrl:
-    'https://www.google.com/maps?q=OC+Avenue%2C+%C5%A0tef%C3%A1nikova+16%2C+066+01+Humenn%C3%A9&z=17&output=embed',
+    'https://www.google.com/maps?q=LDB+GYM%2C+OC+Avenue%2C+Pr%C3%ADzemie%2F1.+podla%C5%BEie%2C+%C5%A0tef%C3%A1nikova+6295%2F16%2C+066+01+Humenn%C3%A9&z=18&output=embed',
   mapLabel: 'Otvoriť mapu',
   mapAlt: 'Mapa lokality LDB GYM v Humennom',
   socialLinks: [
