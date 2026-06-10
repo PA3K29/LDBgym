@@ -1,14 +1,18 @@
 import { trainers } from '../data/siteData'
 import ImageWithFallback from './ImageWithFallback'
 
-function Trainers() {
+function Trainers({ showIntro = true }) {
   return (
     <section id="trainers" className="border-b border-white/10">
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-semibold text-white">Tréneri</h2>
-        <p className="mt-4 max-w-2xl text-neutral-300">
-          Predstavenie trénerov s pripravenými slotmi na portréty a stručné zameranie.
-        </p>
+        {showIntro ? (
+          <>
+            <h2 className="text-3xl font-semibold text-white">Tréneri</h2>
+            <p className="mt-4 max-w-2xl text-neutral-300">
+              Predstavenie trénerov s pripravenými slotmi na portréty a stručné zameranie.
+            </p>
+          </>
+        ) : null}
         <div className="mt-10 grid gap-6 md:grid-cols-2">
           {trainers.map((trainer) => (
             <article key={trainer.name} className="rounded-lg border border-white/10 bg-white/5 p-6">

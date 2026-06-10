@@ -4,6 +4,12 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import CookieBanner from './components/CookieBanner'
 import Home from './pages/Home'
+import AboutPage from './pages/AboutPage'
+import PricingPage from './pages/PricingPage'
+import GalleryPage from './pages/GalleryPage'
+import ProductsPage from './pages/ProductsPage'
+import TrainersPage from './pages/TrainersPage'
+import ContactPage from './pages/ContactPage'
 import GDPR from './pages/GDPR'
 import Cookies from './pages/Cookies'
 import Rules from './pages/Rules'
@@ -29,6 +35,36 @@ const metaMap = {
     title: 'Prevádzkový poriadok | LDB GYM',
     description: 'Pravidlá bezpečného a zodpovedného používania priestorov a služieb LDB GYM.',
     canonical: 'https://www.ldbgym.sk/rules',
+  },
+  '/cennik': {
+    title: 'Cenník | LDB GYM',
+    description: 'Aktuálny cenník vstupov a členstiev vo fitness centre LDB GYM v Humennom.',
+    canonical: 'https://www.ldbgym.sk/cennik',
+  },
+  '/galeria': {
+    title: 'Galéria | LDB GYM',
+    description: 'Pozri si priestory, zóny a vybavenie fitness centra LDB GYM.',
+    canonical: 'https://www.ldbgym.sk/galeria',
+  },
+  '/treneri': {
+    title: 'Tréneri | LDB GYM',
+    description: 'Spoznaj trénerov LDB GYM a ich zameranie na silu, kondíciu a progres.',
+    canonical: 'https://www.ldbgym.sk/treneri',
+  },
+  '/produkty': {
+    title: 'Produkty | LDB GYM',
+    description: 'Doplnky výživy a tréningové produkty dostupné v LDB GYM.',
+    canonical: 'https://www.ldbgym.sk/produkty',
+  },
+  '/kontakt': {
+    title: 'Kontakt | LDB GYM',
+    description: 'Kontakt, mapa, otváracie hodiny a prevádzkové údaje LDB GYM v Humennom.',
+    canonical: 'https://www.ldbgym.sk/kontakt',
+  },
+  '/o-nas': {
+    title: 'O nás | LDB GYM',
+    description: 'Spoznaj priestory, vybavenie, zázemie a filozofiu fitness centra LDB GYM v Humennom.',
+    canonical: 'https://www.ldbgym.sk/o-nas',
   },
 }
 
@@ -66,6 +102,12 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/o-nas" element={<AboutPage />} />
+          <Route path="/cennik" element={<PricingPage />} />
+          <Route path="/galeria" element={<GalleryPage />} />
+          <Route path="/produkty" element={<ProductsPage />} />
+          <Route path="/treneri" element={<TrainersPage />} />
+          <Route path="/kontakt" element={<ContactPage />} />
           <Route path="/gdpr" element={<GDPR />} />
           <Route path="/cookies" element={<Cookies />} />
           <Route path="/rules" element={<Rules />} />
